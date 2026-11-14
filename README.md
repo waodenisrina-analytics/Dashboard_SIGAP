@@ -22,7 +22,7 @@ streamlit run app.py        # jalankan dari root proyek agar .streamlit/config.t
 app.py            router + sidebar (logo Gelar Rasa)
 views/            satu file per halaman (tampilan Streamlit/Plotly)
 utils/            data & perhitungan per halaman, tanpa UI; common.py = konstanta/warna/fmt bersama
-data/             CSV sumber (env_daily, analysis_daily, fact_health_daily, fact_aqms_hourly, dim_station)
+data/             Parquet sumber (env_daily, analysis_daily, fact_health_daily, fact_aqms_hourly, dim_station)
 assets/           logo
 scripts/          build_page5_artifacts.py (opsional: pra-hitung model Halaman 5 -> data/artifacts_page5)
 tests/            smoke test (python tests/smoke_page1.py ... smoke_page3.py)
