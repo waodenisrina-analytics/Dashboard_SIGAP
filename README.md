@@ -1,11 +1,13 @@
 # SIGAP – Air Quality & Public Health Dashboard
 
+**Link dashboard** : https://dashboard-sigap.streamlit.app/
+
 Dashboard Streamlit lima halaman: kualitas udara (PM2.5 dan polutan lain) di 26 stasiun AQMS dan beban kasus pernapasan di 27 RS, periode 2024-01-01 s.d. 2026-10-14.
 
 ## Menjalankan
 ```bash
 pip install -r requirements.txt
-streamlit run app.py        # jalankan dari root proyek agar .streamlit/config.toml (tema terang) terbaca
+streamlit run app.py        
 ```
 
 ## Halaman
