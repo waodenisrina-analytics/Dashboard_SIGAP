@@ -1,0 +1,15 @@
+# Kunci tema terang agar tidak mengikuti mode gelap browser/sistem.
+# Streamlit membaca file ini dari folder tempat `streamlit run` dijalankan (root proyek).
+[theme]
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#F3F6FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#102044"
+font = "sans serif"
+
+# Streamlit >= 1.46; versi lebih lama mengabaikan bagian ini (CSS di app.py menjadi cadangan).
+[theme.sidebar]
+backgroundColor = "#10264A"
+secondaryBackgroundColor = "#263E60"
+textColor = "#FFFFFF"
